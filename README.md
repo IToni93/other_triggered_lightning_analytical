@@ -2,9 +2,9 @@
 This is a webpage of repository accompanying paper [“On the Initiation of Upward Negative Lightning by Nearby Lightning Activity: An Analytical Approach”](https://www.agu.org/). Here you can find the source code directly on the location of [repository](https://github.com/IToni93/other_triggered_lightning_analytical).
 
 ## Graphical Interface
-We have provided graphical interface to simulate four different scenarios discussed in paper and to obtain minimum height of tall structure for upward lightning to be initiated. User can access the interactive interface [here](). It may take few minutes to load the environment. Please don't forget to run the code of each cell to get interactive interface shown.
+We have provided graphical interface to simulate four different scenarios discussed in paper and to obtain minimum height of tall structure for upward lightning to be initiated. User can access the interactive interface [here](https://mybinder.org/v2/gh/IToni93/other_triggered_lightning_analytical/main?filepath=main.ipynb). It may take few minutes to load the environment. Please don't forget to run the code of each cell to get interactive interface shown.
 
-![GitHub Logo](figs/interface.JPG)
+![GitHub Logo](figs/interface.jpg)
 
 The interactive interface is Jupyter notebook executable environment, immediately reproducible.
 
@@ -14,3 +14,5 @@ Most of the input parameters can be changed trough this environment. In case use
 Please use the DOI: "" of this paper and https://citation.crosscite.org/ to cite this paper in proper form.
 
 APA format:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IToni93/other_triggered_lightning_analytical/main?filepath=main.ipynb)

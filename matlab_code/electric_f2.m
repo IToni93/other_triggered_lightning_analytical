@@ -6,8 +6,8 @@ function [Ex Ey]= electric_f2(k,lam,y,x1,x2,xp,yp)
 % x2 - ending position
 % xp,yp - observation point
 
-R1=sqrt((xp-x1).^2+(yp-y)^2);
-R2=sqrt((xp-x2).^2+(yp-y)^2);
+R1=sqrt((xp-x1).^2+(yp-y).^2);
+R2=sqrt((xp-x2).^2+(yp-y).^2);
 
 Ex=k*lam*(1./R2-1./R1);
 

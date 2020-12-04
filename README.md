@@ -4,9 +4,11 @@ This is a webpage of repository accompanying paper [“On the Initiation of Upwa
 ## Graphical Interface
 We have provided graphical interface to simulate four different scenarios discussed in paper and to obtain minimum height of tall structure for upward lightning to be initiated. User can access the interactive interface [here](https://mybinder.org/v2/gh/IToni93/other_triggered_lightning_analytical/main?filepath=main.ipynb). It may take few minutes to load the environment. Please don't forget to run the code of each cell to get interactive interface shown.
 
-![GitHub Logo](figs/interface.jpg)
+![](figs/interface.jpg)
 
 The interactive interface is Jupyter notebook executable environment, immediately reproducible.
+
+![](figs/tutorial.gif)
 
 Most of the input parameters can be changed trough this environment. In case user needs to make some other modifications or to use parts of this code please download the source code of the [repository](https://github.com/IToni93/other_triggered_lightning_analytical). There you can find both Python and Matlab versions of the code. Specific requirements to run python code in your local enviroment are given in requirements.txt file.
 

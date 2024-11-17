@@ -1,6 +1,6 @@
 numpy==1.21.1
-matplotlib==3.3.1
-ipywidgets==7.5.1
-ipython_genutils
+matplotlib>=3.3.1,<4.0  # Allow newer versions but avoid major upgrades
+ipywidgets>=7.5.1,<8.0  # Pin to avoid the 8.x breaking changes
+ipython_genutils  # Version is not specified; let pip determine the latest compatible version
 setuptools>=58.0.4
-wheel
+wheel  # No specific version needed as it's not tightly version-dependent
